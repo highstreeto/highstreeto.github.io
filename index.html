@@ -1,11 +1,158 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Martin Hochstrasser - Portfolio</title>
-	</head>
+<!doctype html>
+<html lang="en">
 
-	<body>
-		<h1>It' shall work!</h1>
-	</body>
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<title>Martin Hochstrasser - Portfolio</title>
+</head>
+
+<body>
+	<div class="jumbotron text-center">
+		<h4 class="display-4">Martin Hochstrasser</h4>
+		<p class="lead">Übersicht über mich und meine Projekte.</p>
+	</div>
+
+	<div class="container">
+		<h2>Ausbildung</h2>
+		<div class="card-group">
+			<div class="card">
+				<div class="card-header text-center">
+					2010 <i class="fas fa-angle-double-right"></i> 2015
+				</div>
+				<div class="card-body">
+					<h5 class="card-title">HTBLuVA St.Pölten</h5>
+					<h6 class="card-subtitle mb-2 text-muted">Höhere Abteilung für Informatik</h6>
+					<p class="card-text">
+						Diplomarbeit: Einsatz von JavaFX im Projekt Eventtechnik
+					</p>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header text-center">
+					2015 <i class="fas fa-angle-double-right"></i> 2018
+				</div>
+				<div class="card-body">
+					<h5 class="card-title">Fachhochschule Oberösterreich</h5>
+					<h6 class="card-subtitle mb-2 text-muted">Bachelorstudiengang Software Engineering</h6>
+					<p class="card-text">
+						Bachelorarbeit: Vergleichsanalyse der Architektur und Erkennung von Software Entwurfsmustern bei
+						Grafik-Frameworks und Game-Engines
+					</p>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header text-center">
+					2018 <i class="fas fa-angle-double-right"></i>
+				</div>
+				<div class="card-body">
+					<h5 class="card-title">Fachhochschule Oberösterreich</h5>
+					<h6 class="card-subtitle mb-2 text-muted">Masterstudiengang Software Engineering</h6>
+					<p class="card-text">
+						Masterarbeit: ?
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container mt-3">
+		<h2>Berufserfahrung</h2>
+		<div class="card-group">
+			<div class="card">
+				<div class="card-header text-center">
+					2010 <i class="fas fa-angle-double-right"></i> 2014
+				</div>
+				<div class="card-body">
+					<h5 class="card-title">BENE AG (Ferialpraktikum)</h5>
+					<h6 class="card-subtitle mb-2 text-muted">Abteilung IT</h6>
+					<p class="card-text">
+						Automatisierung verschiedener IT-Abläufe (Softwareinstallation, AssetManagement) mithilfe von
+						selbsterstellter Software (C#)
+					</p>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header text-center">
+					2016
+				</div>
+				<div class="card-body">
+					<h5 class="card-title">eurofunk Kappacher GmbH (Ferialpraktikum)</h5>
+					<h6 class="card-subtitle mb-2 text-muted">Abteilung Software-Enticklung</h6>
+					<p class="card-text">
+						Entwicklung einer Web-Plattform zur Verwaltung von Versionen (Angular 2, Spring)
+					</p>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header text-center">
+					2017
+				</div>
+				<div class="card-body">
+					<h5 class="card-title">RISC Software GmbH (Ferialpraktikum)</h5>
+					<h6 class="card-subtitle mb-2 text-muted">Abteilung ISA</h6>
+					<p class="card-text">
+						Weiterenticklung eines WPF-Clients um eine Report-Komponente und Erstentwurf einer
+						Kostekalkulation von Produktionsrouten
+					</p>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header text-center">
+					2018 <i class="fas fa-angle-double-right"></i>
+				</div>
+				<div class="card-body">
+					<h5 class="card-title">RISC Software GmbH (Anstellung)</h5>
+					<h6 class="card-subtitle mb-2 text-muted">Abteilung ISA</h6>
+					<p class="card-text">
+
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container mt-3 mb-5">
+		<h2>Projekte</h2>
+		<div class="card-group">
+			<div class="card">
+				<div class="card-body">
+					<h5 class="card-title">SimplyAOP</h5>
+					<h6 class="card-subtitle mb-2 text-muted">A simple AOP library written in C# for .NET Standard 2.0+
+					</h6>
+					<p class="card-text">
+						SimplyAOP is a .NET library (.NET Standard 2.0+) which allows to use AOP concepts in a simple
+						and straightforward way.
+
+						It doesn't use dynamic proxy to accomplish that. Instead the AOP target must invoke a specific
+						method (Advice(...)) on the AspectWeaver to allow for aspects to kick in.
+
+						So SimplyAOP doesn't need to create the instance of the target class so it can be used were
+						instance creation is handled externally (for example by WCF).
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+		integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+		crossorigin="anonymous"></script>
+</body>
+
 </html>
